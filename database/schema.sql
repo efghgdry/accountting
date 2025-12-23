@@ -4,7 +4,6 @@
 -- 创建数据库
 -- SQLite会自动创建数据库文件，无需CREATE DATABASE语句
 
-
 -- 用户表
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
