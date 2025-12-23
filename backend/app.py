@@ -32,5 +32,6 @@ def health_check():
 def index():
     return {'message': '会计财务系统API'}
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=app.config['DEBUG'])
